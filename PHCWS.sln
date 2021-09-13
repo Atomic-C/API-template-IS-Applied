@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHCWS", "PHCWS\PHCWS.csproj", "{FD2FCA03-BA8C-4415-B37E-EFD6C6CEB9FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD2FCA03-BA8C-4415-B37E-EFD6C6CEB9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2FCA03-BA8C-4415-B37E-EFD6C6CEB9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2FCA03-BA8C-4415-B37E-EFD6C6CEB9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2FCA03-BA8C-4415-B37E-EFD6C6CEB9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {253C39BB-23B4-425D-8ABB-2271C0498F6B}
+	EndGlobalSection
+EndGlobal
