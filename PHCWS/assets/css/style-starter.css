@@ -17553,3 +17553,28 @@ div#small-dialog iframe {
 
 /*Below was imported from original ASP.NET template to keep text tidy.*/
 
+#body {
+    background-color: #F3F3F3; /*remove after workaround*/
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    right: 320px;
+    width: 800px;
+    border: 3px solid #F3F3F3;
+    padding: 10px;
+}
+
+.wrapper {
+    background-color:red !important;
+        --text-color:red;
+}
+
+/**/
+
+.help-page-table tbody tr:hover td {
+    background-color: greenyellow;
+}
+
+.content-wrapper {
+}
+
