@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link href="~/assets/css/style-starter.css" rel="stylesheet" />
-
+    <link href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" /> 
+    @* css link above is imported from original .ASP template to keep original formating *@
     <a href="~/assets/fonts/fontawesome-webfont.eot"></a>
     <a href="~/assets/fonts/fontawesome-webfont.ttf"></a>
     <a href="~/assets/fonts/fontawesome-webfont.woff"></a>
@@ -47,7 +48,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto">
-                        <li>@Html.ActionLink("Home", "Index", "Home", new { @class = "nav-link" })</li>
+                        <li>@*@Html.ActionLink("Home", "Index", "Home", new { @class = "nav-link" })*@</li>
+                        <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                         <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, new { @class = "nav-link" })</li>
                         @* https://stackoverflow.com/questions/37002898/html-actionlink-not-working-for-css-class *@
                     </ul>

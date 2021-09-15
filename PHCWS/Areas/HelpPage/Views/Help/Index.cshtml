@@ -7,7 +7,8 @@
 
 @{
     ViewBag.Title = "ASP.NET Web API Help Page";
-
+    Layout = "~/Views/_LayoutPage1.cshtml";
+    // TODO: FIX DESCONFIGURATION ON LAYOUT
     // Group APIs by controller
     ILookup<HttpControllerDescriptor, ApiDescription> apiGroups = Model.ToLookup(api => api.ActionDescriptor.ControllerDescriptor);
 }
