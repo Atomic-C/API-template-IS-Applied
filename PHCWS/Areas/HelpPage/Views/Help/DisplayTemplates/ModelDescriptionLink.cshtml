@@ -1,6 +1,6 @@
 @using PHCWS.Areas.HelpPage.ModelDescriptions
 @model Type
-@{
+@{Layout = "~/Views/_LayoutPage1.cshtml";
     ModelDescription modelDescription = ViewBag.modelDescription;
     if (modelDescription is ComplexTypeModelDescription || modelDescription is EnumTypeModelDescription)
     {
